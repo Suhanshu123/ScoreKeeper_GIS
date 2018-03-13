@@ -1,6 +1,6 @@
 # CourtCounter
 
-CourtCounter is an Android application which takes care of the score between two teams (This particular keeps track of Basketball).
+CourtCounter is an Android application which takes care of the score between two teams (This particular keeps track of Cricket Score).
 
 ## layout_main.xml
 
