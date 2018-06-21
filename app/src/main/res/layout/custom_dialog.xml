@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_10dp"
+    android:background="#cfe0ed"
+    android:layout_marginRight="@dimen/_10dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_8dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rd_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8dp"
+            android:layout_marginEnd="@dimen/_8dp"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:layout_marginRight="@dimen/_8dp"
+            android:layout_marginStart="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:checked="true"
+            android:text="@string/a"
+            android:textSize="@dimen/_18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+
+            android:id="@+id/rd_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8dp"
+            android:layout_marginEnd="@dimen/_8dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="@dimen/_8dp"
+            android:layout_marginStart="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:text="@string/b"
+            android:textSize="@dimen/_18sp"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/new_playername_view"
+        android:layout_width="250dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:background="@drawable/shape3"
+        android:drawablePadding="@dimen/_30dp"
+        android:drawableStart="@drawable/helmet"
+        android:hint="@string/new_player_name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="@dimen/_18sp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/buttondialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginBottom="@dimen/_30dp"
+        android:background="@drawable/shape4"
+        android:text="@string/ok"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>
