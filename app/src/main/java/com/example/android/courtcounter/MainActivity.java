@@ -412,6 +412,10 @@ public class MainActivity extends AppCompatActivity {
                         run_playerB = 0;
                         ball_playerB = 0;
                         playerB_view.setText(run_playerB + "(" + ball_playerB + ")");
+                        total_wicket++;
+                        bowlers_wicket++;
+                        total_score_view.setText(total_run + "/" + total_wicket);
+                        bowers_view.setText(bowlers_run + "(" + bowlers_wicket + ")");
 
                     }
                     Mydialog.dismiss();
